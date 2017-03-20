@@ -1,0 +1,1 @@
+cf ic group create --name cf-pi-<yourinitials> -m 64 -n pi-app-<yourinitials> -d mybluemix.net -p 3000 -e CCS_BIND_SRV=cf-pi-<yourinitials>-personality_insights --desired 3 --auto --anti registry.ng.bluemix.net/<namespace>/cf-pi-<yourinitials>:latest
